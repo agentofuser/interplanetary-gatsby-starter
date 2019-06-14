@@ -42,7 +42,7 @@ module.exports = {
             options: {
               showCaptions: true,
               withWebp: true,
-              tracedSVG: true,
+              // tracedSVG: true,
             },
           },
           {
@@ -114,12 +114,12 @@ module.exports = {
         ],
       },
     },
-    {
-      resolve: 'gatsby-plugin-emoji-favicon',
-      options: {
-        emoji: '🛰',
-      },
-    },
+    // {
+    //   resolve: 'gatsby-plugin-emoji-favicon',
+    //   options: {
+    //     emoji: '🛰',
+    //   },
+    // },
     'gatsby-plugin-react-helmet',
     {
       resolve: 'gatsby-plugin-typography',
