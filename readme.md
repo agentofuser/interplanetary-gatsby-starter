@@ -12,7 +12,7 @@ We're not 100% there yet, but here is how you can get your first dwebsite up:
 
 1. Open this starter on [CodeSandbox](https://codesandbox.io/s/github/agentofuser/interplanetary-gatsby-starter)
 1. Click the Fork button on the top-right corner
-1. Wait for the Gatsby development server to start to confirm the website previews shows up
+1. Wait for the website preview to show up
 1. Sign up for a free account at [pinata.cloud](https://pinata.cloud)
 1. Go to your [Pinata account page](https://pinata.cloud/account)
 1. Copy the PINATA API KEY and the PINATA SECRET API KEY
