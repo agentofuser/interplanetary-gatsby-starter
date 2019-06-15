@@ -95,14 +95,8 @@
     }
   },
   "lint-staged": {
-    "*.{js,ts,tsx,json,md,mdx,html,css}": [
-      "prettier --write",
-      "git add"
-    ],
-    "*.js": [
-      "eslint --fix",
-      "git add"
-    ]
+    "*.{js,ts,tsx,json,md,mdx,html,css}": ["prettier --write", "git add"],
+    "*.js": ["eslint --fix", "git add"]
   },
   "nodemonConfig": {
     "ignore": [
@@ -129,29 +123,12 @@
     "exec": "yarn build && yarn serve"
   },
   "commitlint": {
-    "extends": [
-      "@commitlint/config-conventional"
-    ],
+    "extends": ["@commitlint/config-conventional"],
     "rules": {
-      "header-max-length": [
-        2,
-        "always",
-        50
-      ],
-      "body-max-line-length": [
-        2,
-        "always",
-        72
-      ],
-      "footer-max-line-length": [
-        2,
-        "always",
-        72
-      ],
-      "scope-empty": [
-        2,
-        "never"
-      ]
+      "header-max-length": [2, "always", 50],
+      "body-max-line-length": [2, "always", 72],
+      "footer-max-line-length": [2, "always", 72],
+      "scope-empty": [2, "never"]
     }
   },
   "prettier": {

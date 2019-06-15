@@ -1,11 +1,11 @@
 module.exports = {
   pathPrefix: '__GATSBY_IPFS_PATH_PREFIX__',
   siteMetadata: {
-    title: 'Interplanetary Gatsby',
+    title: 'Interplanetary Gatsby Starter',
     author: '@agentofuser',
-    description: 'Space-Ready Publishing with Gatsby and IPFS',
+    description: 'Effortless blogging on the Decentralized Web',
     coverImageStaticPath: 'nasa-gold.jpg',
-    siteUrl: 'https://interplanetarygatsby.com',
+    siteUrl: 'https://w4y9l.sse.codesandbox.io',
     social: {
       twitter: 'agentofuser',
     },
