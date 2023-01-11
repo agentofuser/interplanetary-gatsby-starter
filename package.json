@@ -10,7 +10,7 @@
   "dependencies": {
     "gatsby": "^2.8.6",
     "gatsby-image": "^2.1.2",
-    "gatsby-transformer-remark": "^2.3.12",
+    "gatsby-transformer-remark": "^5.25.1",
     "gatsby-transformer-sharp": "^2.1.21",
     "prismjs": "^1.16.0",
     "react": "^16.8.6",
